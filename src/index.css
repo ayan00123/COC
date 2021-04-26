@@ -1,0 +1,126 @@
+#totalnav{
+  /* background-color: black; */
+  border-radius: 5px;
+}
+#slogo img{
+  width: 4.5rem;
+  height: 3.2rem;
+}
+#tools{
+  color: white;
+  margin-left:2rem  ;
+}
+#sndlogo img{
+  width: 8rem;
+  height: 1.5rem;
+}
+.bacimg{
+  background-image: url("https://cdn.supercell.com/supercell.com/210416113614/supercell.com/files/styles/hero_image_narrow/public/hero_bg_clashofclans_.jpg?itok=TU9phQtV&timestamp=1544540115");
+  height: 90vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+#tools a{
+  color: #868686;
+}
+#tools a:hover{
+  color: #fff;
+  transition: 0.3s;
+}
+.coclogo img{
+  width: 20rem;
+  height: 10rem;
+  text-align: center;
+  margin: auto;
+}
+.coclogo{
+  text-align: center;
+}
+.flixone{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  /* margin: auto; */
+  width: 100%;
+  margin-top: 4%;
+}
+.one{
+  width: 40%;
+}
+.one img{
+  width: 140%;
+}
+.two{
+  width:60%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 3%;
+
+}
+.linkflix a img{
+  width: 7rem;
+}
+.two span h1{
+  font-family:"Raleway",sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.two span h4{
+  font-family:"Raleway",sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+@media(max-width:782px){
+  .flixone{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 4%;
+  }
+  .one{
+    width: 90%;
+  }
+  .one img{
+    width: 100%;
+  }
+  .two{
+    width:90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3%;
+  
+  }
+  .linkflix a img{
+    width: 5rem;
+  }
+}
+@media(max-width:1082px){
+  .flixone{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 4%;
+  }
+  .one{
+    width: 90%;
+  }
+  .one img{
+    width: 100%;
+  }
+  .two{
+    width:90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3%;
+  
+  }
+  .linkflix a img{
+    width: 5rem;
+  }
+}
+
