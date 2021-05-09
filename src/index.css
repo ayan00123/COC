@@ -1,18 +1,28 @@
-#totalnav{
-  /* background-color: black; */
-  border-radius: 5px;
+.slogo img{
+  width: 70px;
+  height: 55px;
 }
-#slogo img{
-  width: 4.5rem;
-  height: 3.2rem;
+.allnav{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 5px; */
+  background-color: black;
 }
-#tools{
+.slogotwo img{
+  width: 160px;
+  height: 30px;
+}
+.navberpages p{
+  color: #bdbaba;
+  font-size: 16px;
+  font-weight: 700;
+}
+.navberpages p :hover {
   color: white;
-  margin-left:2rem  ;
 }
-#sndlogo img{
-  width: 8rem;
-  height: 1.5rem;
+.navber5ages{
+  margin: 5px;
 }
 .bacimg{
   background-image: url("https://cdn.supercell.com/supercell.com/210416113614/supercell.com/files/styles/hero_image_narrow/public/hero_bg_clashofclans_.jpg?itok=TU9phQtV&timestamp=1544540115");
@@ -21,18 +31,12 @@
   width: 100%;
   background-size: cover;
 }
-#tools a{
-  color: #868686;
-}
-#tools a:hover{
-  color: #fff;
-  transition: 0.3s;
-}
 .coclogo img{
   width: 20rem;
   height: 10rem;
   text-align: center;
   margin: auto;
+  margin-top: 8rem;
 }
 .coclogo{
   text-align: center;
@@ -40,9 +44,6 @@
 .flixone{
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
-  /* margin: auto; */
   width: 100%;
   margin-top: 4%;
 }
@@ -64,13 +65,13 @@
   width: 7rem;
 }
 .two span h1{
-  font-family:"Raleway",sans-serif;
+  font-family:"SupercellHeadline-Heavy',sans-serif";
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 3%;
 }
 .two span h4{
-  font-family:"Raleway",sans-serif;
+  font-family:"SupercellHeadline-Heavy',sans-serif";
   font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 3%;
@@ -81,6 +82,37 @@
     width: 100%;
     margin-top: 4%;
   }
+  .seconedheading{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    }
+    .nxtp{
+      font-size: 18px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    }
+  .parttwo img{
+    display: none;
+  }
+  .navberpages p{
+    font-size: 22px;
+  }
+  .allnav{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .coclogo img{
+    width: 14rem;
+    height: 6rem;
+  }  
   .one{
     width: 90%;
   }
@@ -93,7 +125,14 @@
     margin-left: auto;
     margin-right:auto;
     margin-top: 3%;
-  
+  }
+  .slogo img{
+    width: 60px;
+    height: 40px;
+  }
+  .slogotwo img{
+    width: 120px;
+    height: 20px;
   }
   .linkflix a img{
     width: 5rem;
@@ -117,10 +156,105 @@
     margin-left: auto;
     margin-right:auto;
     margin-top: 3%;
-  
   }
   .linkflix a img{
     width: 5rem;
   }
+  .slogo img{
+    width: 80px;
+    height: 60px;
+  }
+  .slogotwo img{
+    width: 170px;
+    height: 30px;
+  }
 }
-
+.flexpart{
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.line img{
+  width: 100%;
+}
+.aftline{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+li{
+  list-style: none;
+}
+.flexpart{
+  margin-top: 4rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:"SupercellHeadline-Heavy',sans-serif";
+}
+.parttwo img{
+  width: 600px;
+  height: 400px;
+}
+.lineall{
+  margin-top: 4rem;
+}
+.seconedheading{
+font-size: 30px;
+font-weight: bolder;
+}
+.nxtp{
+  font-size: 18px;
+font-weight: 400;
+}
+.lineall{
+  font-size: 14px;
+}
+#allwriting{
+  color: white;
+  text-align: left;
+}
+.totalflexthree{
+ padding: 2rem;
+background-image: url("https://cdn.supercell.com/supercell.com/210506082952/all/themes/supercell/img/18/bg_gamesocial_clashofclans.jpg");
+background-position: center;
+background-size: cover;
+margin-bottom: 5rem;
+}
+.allimglink img{
+  text-align: left;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.allp{
+  text-align: left;
+  color: white;
+}
+.totalfooter{
+  background-color: black ;
+  margin-top: 3rem;
+}
+.lastone{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.allimglinktwo img{
+  width: 130px;
+  height: 40px;
+  margin: 5px;
+}
+.followpage{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+.emage img{
+  width: 70px;
+  height: 50px;
+}

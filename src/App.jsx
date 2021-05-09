@@ -1,19 +1,13 @@
-import React,{Component} from "react";
+import React from 'react'
 import Navigation from "./Navigation";
-import Flix from "./Flix";
-class App extends Component{
-    render(){
-    return(
-        <>
-        <div className="bacimg">
+import Body from "./Body";
+import Footer from "./Footer"
+export default function App() {
+    return (
+        <div>
             <Navigation/>
-            <div className="coclogo">
-            <img src="https://cdn.supercell.com/supercell.com/210416113614/all/themes/supercell/img/18/main_logo_clashofclans.png" alt=""/>
-            </div>
+            <Body/>
+            <Footer/>
         </div>
-        <Flix/>
-        </>
     )
 }
-}
-export default App;
